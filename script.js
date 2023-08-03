@@ -194,7 +194,7 @@ function createMenu(products) {
         }
 
         productDiv.innerHTML = `
-  <div class="cell"><img style="max-width: 30px;" src="../uploads/${
+  <div class="cell"><img style="max-width: 30px;" src="/uploads/${
       product["imageName"]
   }" alt=""></div>
   <div class="cell">${product["productName"]}</div>
