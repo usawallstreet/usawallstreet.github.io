@@ -57,6 +57,7 @@ body {
     flex: 49.8%;
     font-size: 32px;
     background-color: #1f1f1f;
+    height: 40px;
 }
 
 .cell {
@@ -145,7 +146,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     body {
-        font-family: "Courier New", Courier, monospace;
+        /* font-family: "Courier New", Courier, monospace; */
         /* font-size: 20px; */
     }
     .row {
@@ -222,6 +223,7 @@ body {
     }
     .kayan-yazi {
         display: none;
+        height: 0;
     }
 }
 
