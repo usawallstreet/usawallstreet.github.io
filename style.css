@@ -144,18 +144,22 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    body {
+        font-family: "Courier New", Courier, monospace;
+        /* font-size: 20px; */
+    }
     .row {
         max-width: 100%;
         flex: 100%;
-        font-size: 8px;
+        /* font-size: 2px; */
     }
 
     .table {
-        font-size: 8px;
+        /* font-size: 2px; */
     }
 
     .cell {
-        font-size: 8px;
+        /* font-size: 1px; */
     }
 
     .row:nth-child(4n - 3),
@@ -176,6 +180,48 @@ body {
         text-align: left;
         justify-content: flex-start;
         padding-right: 0;
+    }
+
+    .cell:first-child {
+        flex: 1 1 1%;
+        justify-content: flex-start;
+        padding-right: 0;
+    }
+
+    .cell:nth-child(2) {
+        flex: 1 1 40%;
+        justify-content: flex-start;
+        padding-left: 0;
+        font-size: 16px;
+    }
+
+    .cell:nth-child(3) {
+        flex: 1 1 4%;
+        color: #f0ffce;
+        font-size: 12px;
+    }
+
+    .cell:nth-child(4) {
+        flex: 1 1 0.1%;
+    }
+
+    .cell:nth-child(5) {
+        flex: 1 1 2%;
+        font-size: 12px;
+    }
+
+    .cell:nth-child(6) {
+        flex: 1 1 2%;
+        font-size: 12px;
+    }
+    .head {
+        display: none;
+    }
+    .head-container {
+        margin-bottom: 20px;
+    }
+    .kayan-yazi {
+        display: none;
     }
 }
 
